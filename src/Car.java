@@ -5,16 +5,16 @@ abstract class Car {
     //    model: a String representing the model of the car
     //    mileage: an int representing the mileage of the car
 
-    protected String vinNumber();
-    protected String make();
-    protected String model();
-    protected int mileage();
+    protected  String vinNumber;
+    protected  String make;
+    protected  String model;
+    protected  int mileage;
 
     public Car(String vinNumber, String make, String model, int mileage) {
-        this.vinNumber();
-        this.make();
-        this.model();
-        this.mileage();
+        this.vinNumber = vinNumber;
+        this.make = make;
+        this.model = model;
+        this.mileage = mileage;
 
 
 
